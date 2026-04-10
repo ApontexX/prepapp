@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Data
 @Entity
 @Table(name = "blocks")
@@ -22,6 +24,7 @@ public class Block {
     @Column
     private Integer position;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "folder_id", nullable = false)
     private Folder folder;
