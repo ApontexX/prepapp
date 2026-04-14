@@ -55,4 +55,4 @@ src/main/java/com/miguel/prepapp/
 
 ## Frontend
 
-El frontend de esta aplicación está disponible en [prepapp-frontend](https://github.com/tuUsuario/prepapp-frontend)
+El frontend de esta aplicación está disponible en [prepapp-frontend](https://github.com/ApontexX/prepapp-frontend)
