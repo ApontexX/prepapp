@@ -10,3 +10,6 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 # Puerto
 server.port=8080
+
+#API KEY
+anthropic.api.key=TU_API_KEY_AQUI
